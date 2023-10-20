@@ -8,7 +8,7 @@ using System.Xml;
 using System.Xml.Linq;
 
 var client = new HttpClient();
-client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", $"Bearer {"47740ea35c0d418a96049c70f69c622ae02e0f44"}");
+client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", $"Bearer {"Your_Token"}");
 
 var content = new
 {
